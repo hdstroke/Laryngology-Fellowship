@@ -88,13 +88,8 @@
         <div id="page-directory" class="page-content active">
             <!-- Introduction Section -->
             <div class="bg-white p-6 rounded-lg shadow-md mb-8">
-                <h2 class="text-2xl font-semibold mb-4 text-gray-900">Navigating the Laryngology Fellowship Application</h2>
-                <p class="mb-4">Welcome! This directory is designed to help prospective applicants explore the landscape of Laryngology fellowships. It's important to understand a few key aspects of the application process:</p>
-                <ul class="list-disc list-inside space-y-2 text-gray-700">
-                    <li><strong>The NRMP Match:</strong> Most, but not all, Laryngology fellowships participate in the National Resident Matching Program (NRMP). This standardizes the timeline for applications, interviews, and offers.</li>
-                    <li><strong>Accreditation:</strong> Laryngology is a non-ACGME accredited subspecialty. Fellowships are typically approved by their sponsoring institution's Graduate Medical Education Committee.</li>
-                    <li><strong>Direct Applications:</strong> Applicants must prepare and send their application materials directly to each program.</li>
-                </ul>
+                <h2 class="text-2xl font-semibold mb-4 text-gray-900">2026 Laryngology Match Programs</h2>
+                <p class="mb-4">This directory has been updated based on the official list of programs participating in the 2026 Match, provided by the American Laryngological Association (ALA) as of April 14, 2025. All programs listed here participate in the NRMP Match.</p>
             </div>
 
             <!-- Accordion Container -->
@@ -126,23 +121,35 @@
 
     <script>
         const programs = [
-            { name: "Vanderbilt University Medical Center", location: "Nashville, TN", director: "C. Gaelyn Garrett, MD, MMHC", focus: "Comprehensive training in voice, airway, and swallowing disorders. One of the longest-running Laryngology fellowships.", match: "Yes", noteworthy: "Strong clinical and basic science research opportunities available.", url: "https://www.vumc.org/ent/laryngology-and-professional-voice-fellowship" },
-            { name: "Massachusetts General Hospital", location: "Boston, MA", director: "Steven M. Zeitels, MD, FACS", focus: "Laryngeal surgery, voice disorders, and management of the professional voice. Strong emphasis on surgical techniques and technology.", match: "Yes (2 of 3 spots)", noteworthy: "Collaboration with voice scientists and speech pathologists; access to cutting-edge laboratory facilities.", url: "https://www.massgeneral.org/surgery/voice-center/education-and-training/clinical-fellowship-in-laryngeal-surgery" },
-            { name: "NYU Langone Health", location: "New York, NY", director: "Milan R. Amin, MD & Paul E. Kwak, MD", focus: "Diagnosis and management of laryngological disease, advanced operative techniques, and care of vocal performers.", match: "Yes", noteworthy: "Strong partnerships with the performing arts community in New York City.", url: "https://med.nyu.edu/departments-institutes/otolaryngology-head-neck-surgery/divisions-centers/laryngology/fellowship-training" },
-            { name: "Johns Hopkins University", location: "Baltimore, MD", director: "Lee M. Akst, M.D.", focus: "Comprehensive experience for a career in academic laryngology, with a focus on operative techniques and office-based procedures.", match: "Yes", noteworthy: "Robust clinical and basic science research experience with multiple clinician-investigators on faculty.", url: "https://www.hopkinsmedicine.org/otolaryngology/education/laryngology-fellowship" },
-            { name: "University of California, San Francisco", location: "San Francisco, CA", director: "Clark Rosen, MD", focus: "Comprehensive care of voice, airway, and swallowing disorders at the UCSF Voice and Swallowing Center.", match: "No", noteworthy: "One of the programs that does not participate in the NRMP match, requiring direct inquiry for application timeline.", url: "https://ohns.ucsf.edu/education/fellowships/laryngology" },
-            { name: "University of Washington", location: "Seattle, WA", director: "Albert Merati, MD", focus: "Comprehensive experience in voice, swallowing, and airway, with particular strength in neurolaryngology and airway stenosis.", match: "Yes", noteworthy: "Strong collaborative services with speech language pathologists and rich opportunities for teaching residents.", url: "https://otolaryngology.uw.edu/education-training/fellowship-programs/laryngology-fellowship" },
-            { name: "University of Pittsburgh (UPMC)", location: "Pittsburgh, PA", director: "Libby J. Smith, DO", focus: "Encompasses all aspects of care of the larynx, pharynx and upper esophagus with a 'hands on' approach.", match: "No", noteworthy: "Fellows have their own supervised clinic one half-day per week.", url: "https://www.otolaryngology.pitt.edu/education/fellowships/laryngology-and-bronchoesophagology-fellowship" },
-            { name: "Emory University", location: "Atlanta, GA", director: "Adam M. Klein, MD", focus: "Clinical and research training in the diagnosis and management of voice, swallowing, and airway disorders.", match: "Yes", noteworthy: "Training at the Emory Voice Center, a multidisciplinary center of excellence.", url: "https://med.emory.edu/departments/otolaryngology/education/fellowships/laryngology.html" },
-            { name: "Stanford University", location: "Stanford, CA", director: "Edward J. Damrose, MD", focus: "Broad exposure to laryngology including neurolaryngology, airway reconstruction, and care of the professional voice.", match: "Yes", noteworthy: "Located at the Stanford Voice and Swallowing Center, with strong research opportunities.", url: "https://med.stanford.edu/ohns/education/fellowships/laryngology.html" },
-            { name: "UCLA David Geffen School of Medicine", location: "Los Angeles, CA", director: "Dinesh K. Chhetri, MD", focus: "Comprehensive clinical and research training in voice, swallowing, and airway disorders, including pediatric laryngology.", match: "Yes (2 positions)", noteworthy: "High-volume, diverse clinical exposure at a major academic center.", url: "https://www.uclahealth.org/head-neck-surgery/laryngology-fellowship" },
-            { name: "University of Wisconsin", location: "Madison, WI", director: "Seth H. Dailey, MD", focus: "Balanced training in all aspects of laryngology, with an emphasis on academic career development.", match: "Yes", noteworthy: "Strong mentorship and opportunities for both clinical and basic science research.", url: "https://www.surgery.wisc.edu/education-training/fellowships/laryngology/" },
-            { name: "Cleveland Clinic", location: "Cleveland, OH", director: "Paul C. Bryson, MD", focus: "High-volume clinical practice in voice, swallowing, and complex airway disorders.", match: "Yes", noteworthy: "Part of the Head & Neck Institute, offering extensive resources and a multidisciplinary approach.", url: "https://my.clevelandclinic.org/departments/head-neck/medical-professionals/laryngology-fellowship" },
-            { name: "Icahn School of Medicine at Mount Sinai", location: "New York, NY", director: "Mark S. Courey, MD", focus: "Interdisciplinary voice and swallowing clinics, vast variety of surgical procedures, and office-based procedures.", match: "Yes", noteworthy: "Strong didactic program with national journal clubs and multi-institutional case presentations.", url: "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-laryngology-fellowship" },
-            { name: "University of Michigan", location: "Ann Arbor, MI", director: "Norman D. Hogikyan, MD", focus: "Immersive, broad exposure to all aspects of clinical laryngology with an emphasis on intentional education.", match: "Yes", noteworthy: "Fellow has an independent clinic approximately two days per month to foster autonomy.", url: "https://medschool.umich.edu/departments/otolaryngology-head-neck-surgery/education/fellowships/laryngology" },
-            { name: "Medical University of South Carolina", location: "Charleston, SC", director: "Lucinda A. Halstead, MD", focus: "Performing arts medicine, professional voice care, and general laryngology.", match: "Yes", noteworthy: "Unique focus on the care of performing artists, including collaboration with the Spoleto Festival USA.", url: "https://medicine.musc.edu/departments/otolaryngology/education/fellowship-programs/laryngology" },
-            { name: "University of Southern California (USC)", location: "Los Angeles, CA", director: "Michael M. Johns III, MD", focus: "Comprehensive training at the USC Voice Center, covering all aspects of laryngology.", match: "Yes", noteworthy: "Strong clinical volume and research opportunities in a major metropolitan area.", url: "https://keck.usc.edu/otolaryngology/training-education/fellowship-programs/laryngology/" },
-            { name: "Oregon Health & Science University", location: "Portland, OR", director: "Joshua S. Schindler, MD", focus: "Training in all areas of laryngology, including complex airway and swallowing disorders.", match: "Yes", noteworthy: "Fellows gain experience at the Northwest Center for Voice and Swallowing.", url: "https://www.ohsu.edu/school-of-medicine/otolaryngology/laryngology-fellowship" }
+            { name: "Cleveland Clinic, Head and Neck Institute", location: "Cleveland, OH", director: "Paul Bryson, MD; Rebecca Nelson, MD", focus: "High-volume clinical practice in voice, swallowing, and complex airway disorders.", noteworthy: "Part of the Head & Neck Institute, offering extensive resources and a multidisciplinary approach.", url: "https://my.clevelandclinic.org/departments/head-neck/medical-professionals/laryngology-fellowship" },
+            { name: "Emory Voice Center", location: "Atlanta, GA", director: "Andrew Tkaczuk, MD", focus: "Clinical and research training in the diagnosis and management of voice, swallowing, and airway disorders.", noteworthy: "Training at the Emory Voice Center, a multidisciplinary center of excellence.", url: "https://med.emory.edu/departments/otolaryngology/education/fellowships/laryngology.html" },
+            { name: "Hackensack-Meridian School of Medicine", location: "Hackensack, NJ", director: "Andrew Blitzer, MD, DDS; Brian Benson, MD; Rachel Kaye, MD", focus: "Comprehensive training in all facets of laryngology, including voice, swallowing, and airway disorders.", noteworthy: "Exposure to a diverse patient population and a wide range of pathologies.", url: "https://www.hackensackmeridianhealth.org/en/healthcare-professionals/otolaryngology-residency" },
+            { name: "Indiana University Health Voice Center", location: "Carmel, IN", director: "Benjamin Anthony, MD; Stacey Halum, MD", focus: "Comprehensive training in evaluation and management of voice, airway and swallowing disorders.", noteworthy: "Unique research opportunities with multiple NIH-funded investigators.", url: "https://medicine.iu.edu/otolaryngology/education/fellowships/laryngology" },
+            { name: "Johns Hopkins Medical Center", location: "Baltimore, MD", director: "Lee Akst, MD", focus: "Comprehensive experience for a career in academic laryngology, with a focus on operative techniques and office-based procedures.", noteworthy: "Robust clinical and basic science research experience with multiple clinician-investigators on faculty.", url: "https://www.hopkinsmedicine.org/otolaryngology/education/laryngology-fellowship" },
+            { name: "Massachusetts Eye & Ear Infirmary", location: "Boston, MA", director: "Ramon Franco, MD", focus: "Management of voice disorders as a member of a multidisciplinary team.", noteworthy: "Collaborations with the Pediatric Division for airway procedures and interactions with faculty from Harvard and MIT.", url: "https://masseyeandear.org/education/otolaryngology/fellowships/laryngology" },
+            { name: "Massachusetts General Hospital Voice Center", location: "Boston, MA", director: "Steven M. Zeitels, MD", focus: "Laryngeal surgery, voice disorders, and management of the professional voice. Strong emphasis on surgical techniques and technology.", noteworthy: "Collaboration with voice scientists and speech pathologists; access to cutting-edge laboratory facilities.", url: "https://www.massgeneral.org/surgery/voice-center/education-and-training/clinical-fellowship-in-laryngeal-surgery" },
+            { name: "Medical College of Georgia at Augusta University", location: "Augusta, GA", director: "Gregory Postma, MD", focus: "Comprehensive training in the evaluation and management of voice, airway, and swallowing disorders.", noteworthy: "A high-volume surgical experience with a diverse faculty.", url: "https://www.augusta.edu/mcg/ent/fellowships/laryngology.php" },
+            { name: "Medical University of South Carolina", location: "Charleston, SC", director: "Ashli O'Rourke, MD", focus: "Performing arts medicine, professional voice care, and general laryngology.", noteworthy: "Unique focus on the care of performing artists, including collaboration with the Spoleto Festival USA.", url: "https://medicine.musc.edu/departments/otolaryngology/education/fellowships" },
+            { name: "Mt. Sinai Medical School", location: "New York, NY", director: "Mark S. Courey, MD", focus: "Interdisciplinary voice and swallowing clinics, vast variety of surgical procedures, and office-based procedures.", noteworthy: "Strong didactic program with national journal clubs and multi-institutional case presentations.", url: "https://icahn.mssm.edu/education/residencies-fellowships/list/msh-laryngology-fellowship" },
+            { name: "New York Presbyterian/Columbia & Cornell Universities", location: "New York, NY", director: "Michael Pitman, MD; Lucian Sulica MD", focus: "Comprehensive training offered by the Sean Parker Institute for the Voice and the Center for Voice and Swallowing.", noteworthy: "Joint fellowship providing clinical variety and broad exposure at two major medical centers.", url: "https://www.vagelos.columbia.edu/education/academic-programs/departments/otolaryngology-head-and-neck-surgery/education/laryngology-fellowship" },
+            { name: "New York University School of Medicine", location: "New York, NY", director: "Milan Amin, MD", focus: "Diagnosis and management of laryngological disease, advanced operative techniques, and care of vocal performers.", noteworthy: "Strong partnerships with the performing arts community in New York City.", url: "https://med.nyu.edu/departments-institutes/otolaryngology-head-neck-surgery/divisions-centers/laryngology/fellowship-training" },
+            { name: "Ohio State University School of Medicine", location: "Columbus, OH", director: "Brad deSilva, MD", focus: "Comprehensive training in all aspects of laryngology and bronchoesophagology.", noteworthy: "Fellows gain experience in a high-volume academic center with a focus on complex airway and swallowing cases.", url: "https://otolaryngology.osu.edu/education/fellowship-programs/laryngology-fellowship" },
+            { name: "Oregon Health & Science University", location: "Portland, OR", director: "Joshua Schindler, MD", focus: "Training in all areas of laryngology, including complex airway and swallowing disorders.", noteworthy: "Fellows gain experience at the Northwest Center for Voice and Swallowing.", url: "https://www.ohsu.edu/school-of-medicine/otolaryngology-head-and-neck-surgery/laryngology-fellowship" },
+            { name: "Weill Cornell Medical College, Sean Parker Institute for the Voice", location: "New York, NY", director: "Lucian Sulica, MD", focus: "Specialized training in the care of the professional voice and complex laryngeal disorders.", noteworthy: "Part of a premier voice institute with a focus on cutting-edge research and clinical care.", url: "https://ent.weill.cornell.edu/education/fellowships" },
+            { name: "Stanford University School of Medicine", location: "Stanford, CA", director: "Edward Damrose, MD", focus: "Broad exposure to laryngology including neurolaryngology, airway reconstruction, and care of the professional voice.", noteworthy: "Located at the Stanford Voice and Swallowing Center, with strong research opportunities.", url: "https://med.stanford.edu/ohns/education/fellowship-training/laryngology.html" },
+            { name: "University of Alabama - Birmingham", location: "Birmingham, AL", director: "C. Blake Simpson, MD", focus: "Comprehensive clinical training in the diseases of the larynx, voice, and swallowing.", noteworthy: "A multidisciplinary approach at the UAB Voice Center.", url: "https://www.uab.edu/medicine/otolaryngology/education/fellowships/laryngology-fellowship" },
+            { name: "UCLA Medical Center", location: "Los Angeles, CA", director: "Dinesh Chhetri, MD", focus: "Comprehensive clinical and research training in voice, swallowing, and airway disorders, including pediatric laryngology.", noteworthy: "High-volume, diverse clinical exposure at a major academic center.", url: "https://www.uclahealth.org/departments/head-neck-surgery/education/fellowship-programs/laryngology-fellowship" },
+            { name: "University of CA - Davis", location: "Sacramento, CA", director: "Peter Belafsky, MD", focus: "Training at the Center for Voice and Swallowing, with a focus on dysphagia and complex airway disorders.", noteworthy: "Innovative research and clinical trials in swallowing disorders.", url: "https://health.ucdavis.edu/otolaryngology/education/fellowships.html" },
+            { name: "University of CA - San Francisco", location: "San Francisco, CA", director: "VyVy N. Young, MD", focus: "Comprehensive care of voice, airway, and swallowing disorders at the UCSF Voice and Swallowing Center.", noteworthy: "Strong emphasis on academic laryngology and clinical research.", url: "https://ohns.ucsf.edu/education/fellowships" },
+            { name: "University of Cincinnati", location: "Cincinnati, OH", director: "Rebecca Howell, MD", focus: "Sufficient background and experience to establish an independent laryngology program at an academic institution.", noteworthy: "Techniques in diagnosis and management of patients with voice, swallowing and airway disorders through direct mentorship.", url: "https://med.uc.edu/departments/otolaryngology/education/fellowship-training/laryngology" },
+            { name: "University of Miami", location: "Miami, FL", director: "David Rosow, MD", focus: "Comprehensive training in adult and pediatric laryngology, including care of the professional voice.", noteworthy: "Experience at a high-volume tertiary care center with a diverse patient population.", url: "https://med.miami.edu/departments/otolaryngology/education/fellowship-programs" },
+            { name: "University of Michigan - Ann Arbor", location: "Ann Arbor, MI", director: "Norman Hogikyan, MD", focus: "Immersive, broad exposure to all aspects of clinical laryngology with an emphasis on intentional education.", noteworthy: "Fellow has an independent clinic approximately two days per month to foster autonomy.", url: "https://medicine.umich.edu/dept/otolaryngology-head-neck-surgery/education/fellowships/laryngology-fellowship" },
+            { name: "University of Pittsburgh Medical Center", location: "Pittsburgh, PA", director: "Chloe Santa Maria, MD", focus: "Encompasses all aspects of care of the larynx, pharynx and upper esophagus with a 'hands on' approach.", noteworthy: "Fellows have their own supervised clinic one half-day per week.", url: "https://www.otolaryngology.pitt.edu/education/fellowship-training/laryngology-fellowship" },
+            { name: "University of Southern California", location: "Los Angeles, CA", director: "Michael M. Johns III, MD", focus: "Comprehensive training at the USC Voice Center, covering all aspects of laryngology.", noteworthy: "Strong clinical volume and research opportunities in a major metropolitan area.", url: "https://keck.usc.edu/otolaryngology/training-education/fellowship-programs/laryngology/" },
+            { name: "University of WA - Seattle", location: "Seattle, WA", director: "Albert Merati, MD", focus: "Comprehensive experience in voice, swallowing, and airway, with particular strength in neurolaryngology and airway stenosis.", noteworthy: "Strong collaborative services with speech language pathologists and rich opportunities for teaching residents.", url: "https://otolaryngology.uw.edu/education/fellowship-programs/laryngology" },
+            { name: "University of Wisconsin", location: "Madison, WI", director: "Seth Dailey, MD", focus: "Balanced training in all aspects of laryngology, with an emphasis on academic career development.", noteworthy: "Strong mentorship and opportunities for both clinical and basic science research.", url: "https://www.surgery.wisc.edu/education-training/fellowships/laryngology-fellowship/" },
+            { name: "Vanderbilt Medical Center", location: "Nashville, TN", director: "Gaelyn Garrett, MD, MMHC", focus: "Comprehensive training in voice, airway, and swallowing disorders. One of the longest-running Laryngology fellowships.", noteworthy: "Strong clinical and basic science research opportunities available.", url: "https://www.vumc.org/ent/education/laryngology-fellowship" },
+            { name: "Washington University/Barnes-Jewish", location: "St. Louis, MO", director: "Randal Paniello, MD, PhD", focus: "Comprehensive training in voice and swallowing disorders, with a focus on laryngeal framework surgery and neurolaryngology.", noteworthy: "Significant opportunities for basic science and clinical research, particularly in laryngeal reinnervation.", url: "https://oto.wustl.edu/education/fellowship-training/laryngology-fellowship/" }
         ];
 
         const accordionContainer = document.getElementById('accordion-container');
@@ -164,10 +171,9 @@
                     <div class="p-6 border-t border-gray-200">
                         <p class="text-gray-500 mb-4 font-semibold">${program.location}</p>
                         <div class="space-y-3 text-sm">
-                            <p><span class="font-semibold text-gray-800">Program Director:</span> ${program.director}</p>
-                            <p><span class="font-semibold text-gray-800">Focus:</span> ${program.focus}</p>
-                            <p><span class="font-semibold text-gray-800">NRMP Match:</span> ${program.match}</p>
-                            <p><span class="font-semibold text-gray-800">Noteworthy:</span> ${program.noteworthy}</p>
+                            <p><span class="font-semibold text-gray-800">Program Director(s):</span> ${program.director}</p>
+                            <p><span class="font-semibold text-gray-800">Focus:</span> ${program.focus || 'N/A'}</p>
+                            <p><span class="font-semibold text-gray-800">Noteworthy:</span> ${program.noteworthy || 'N/A'}</p>
                         </div>
                         <a href="${program.url}" target="_blank" class="mt-4 inline-block text-blue-600 hover:text-blue-800 font-semibold">Program Website &rarr;</a>
                     </div>
@@ -188,9 +194,12 @@
                     <label class="flex items-center"><input type="checkbox" class="h-5 w-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500"><span class="ml-3 text-gray-700">CV</span></label>
                 </div>
                 <div class="completion-message" style="display: none;">
-                    <div class="flex items-center text-green-600 font-semibold">
-                        <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                        <span>Application Completed!</span>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center text-green-600 font-semibold">
+                            <svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            <span>Application Completed!</span>
+                        </div>
+                        <button class="edit-checklist-button text-sm text-blue-600 hover:underline focus:outline-none">Edit</button>
                     </div>
                 </div>
             `;
@@ -198,21 +207,31 @@
 
             // Add event listener for the new checklist item
             const checkboxes = checklistItem.querySelectorAll('input[type="checkbox"]');
-            checkboxes.forEach(checkbox => {
-                checkbox.addEventListener('change', () => {
-                    const checkedCount = checklistItem.querySelectorAll('input[type="checkbox"]:checked').length;
-                    const optionsDiv = checklistItem.querySelector('.checklist-options');
-                    const completionDiv = checklistItem.querySelector('.completion-message');
+            const optionsDiv = checklistItem.querySelector('.checklist-options');
+            const completionDiv = checklistItem.querySelector('.completion-message');
+            const editButton = checklistItem.querySelector('.edit-checklist-button');
 
-                    if (checkedCount === 5) {
-                        optionsDiv.style.display = 'none';
-                        completionDiv.style.display = 'block';
-                    } else {
-                        optionsDiv.style.display = 'block';
-                        completionDiv.style.display = 'none';
-                    }
-                });
+            const updateChecklistStatus = () => {
+                const checkedCount = checklistItem.querySelectorAll('input[type="checkbox"]:checked').length;
+                if (checkedCount === 5) {
+                    optionsDiv.style.display = 'none';
+                    completionDiv.style.display = 'block';
+                } else {
+                    optionsDiv.style.display = 'block';
+                    completionDiv.style.display = 'none';
+                }
+            };
+
+            checkboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', updateChecklistStatus);
             });
+            
+            editButton.addEventListener('click', () => {
+                // To revert, simply show the options again. The user can then uncheck a box.
+                optionsDiv.style.display = 'block';
+                completionDiv.style.display = 'none';
+            });
+
         });
 
         // Accordion Functionality
@@ -253,4 +272,3 @@
 
 </body>
 </html>
-
